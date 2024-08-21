@@ -1,0 +1,397 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+a{color:inherit; text-decoration: none;}
+*{box-sizing: border-box;}
+img{vertical-align: top;}
+body{
+  font-family:'Pretendard'; 
+  font-weight: 300;
+  color:#333333;
+  font-size:18px;
+}
+#wrap{width:100%; height: auto;}
+.inner{width:1320px; height:100%; margin:0 auto;}
+/* 공통 common */
+
+span.b1 {font-weight: 900;}
+span.b2 {font-weight: 900; color: #E4032E;}
+span.b3 {font-weight: 900; font-size: 40px;}
+span.b4 {font-weight: 500; color:#D5AD00}
+span.b5 {font-weight: 900; font-size: 32px;}
+span.b6 {color: #E4032E;}
+/* span속성값 */
+
+
+#wrap #header{
+  width: 100%; height: 144px; 
+  position : relative;
+}
+#wrap #header .util{
+  width: 100%; height: 60px; background-color: #003864;
+}
+#wrap #header .util .inner{
+  height: 60px;
+  display: flex;
+  justify-content:flex-end;
+  text-align: center;
+  margin: 0 auto;
+}
+#wrap #header .util .inner .util_list{
+  font-size: 12px;
+  width: 340px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+#wrap #header .util .inner .util_list i{
+  padding-left:10px;
+}
+#wrap #header .util .inner .util_list ul{
+  display: flex;
+  justify-content: space-between;
+}
+#wrap #header .util .inner .f_sns{
+  width: 170px;
+  padding: 10px;
+}
+
+#wrap #header .util .inner .f_sns ul{
+  display: flex;
+  justify-content: space-between;
+  }
+#wrap #header .util .inner .f_sns ul li{
+  display: flex;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  text-align: center;
+  text-indent: -200px;
+background-image: url(../img/foot_sns_icon.gif);
+}
+ #wrap #header .util .inner .f_sns .fa{
+  background-position: 1%;}
+ #wrap #header .util .inner .f_sns .insta{
+  background-position: 40% 0;}
+ #wrap #header .util .inner .f_sns .naver{
+  background-position: 80% 0;}
+ #wrap #header .util .inner .f_sns .youtube{
+  background-position: 99% 0;}
+  /* util */
+  
+  #wrap #header .util .inner .f_sns ul li a{
+    display: block;
+    width: 33px;
+    height: 33px;
+}
+
+/*---------------------------------------------  */
+#wrap #header .menu_area{
+  height: 84px;
+  border-bottom: 1px solid #707070;
+}
+
+#wrap #header .menu_area .inner{
+display:flex; 
+justify-content: space-between; 
+align-items: center; 
+}
+
+
+#wrap #header .menu_area .inner .gnb_menu ul{
+  display:flex; width:900px; justify-content: space-around;
+  font-size:22px; font-weight: 600;
+}
+#wrap #header .menu_area .inner .gnb_menu ul li{
+ width: 150px;
+ text-align: center;
+}
+
+/*--------------------------------------------- 버튼hover */
+ #wrap #header .menu_area .inner .gnb_menu .btn-over{
+  padding: 25px;
+  font-size: 22px;
+}
+#wrap #header .menu_area .inner .gnb_menu .btn-over:hover{
+  border-bottom: 4px solid #E4032E;
+} 
+ /*---------------------------------------------menu_area  */
+
+.menu_sub{
+  background-color:#003764;
+  width: 100%;
+  display: none;
+  position: relative;
+  z-index: 5;
+}
+
+.menu_sub .inner{
+  display:flex;
+}
+.menu_sub .sub_menu{
+  display:flex; width:900px; justify-content: space-around;
+  margin: 20px 0;
+
+}
+.menu_sub .null1{
+  width: 173px;
+  height: auto;
+  background-image: url(../img/menu-right.png);
+  background-position:bottom; 
+  background-repeat: no-repeat;
+  margin-left: 43px;
+  }
+
+  .menu_sub .null1 p:nth-child(1){
+    color: #fff;
+    font-size: 12px;
+    margin: 60px 0 20px 20px;
+    }
+  .menu_sub .null1 p:nth-child(2){
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0px 0px 0px 20px;
+    }
+
+
+.menu_sub .sub_menu ul{
+  text-align: center;
+  color: #fff;
+  width: 150px;
+  border-right: 1px solid #012441;
+} 
+
+.menu_sub .sub_menu ul:nth-child(1){
+  border-left: 1px solid #012441;
+} 
+
+
+.menu_sub .sub_menu ul li{
+padding: 8px;
+}
+
+.menu_sub .sub_menu ul li a{
+font-size: 18px;
+}
+.menu_sub .null2{
+  width: 150px;
+  height: auto;
+  }
+
+
+.menu_sub .sub_menu ul li:hover{
+  color: #d41111;
+  }
+  
+
+/*--------------------------------------------- menu_sub */
+
+#wrap #header .menu_area .inner .etc_menu ul{
+  display: flex;
+  width:160px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+/*--------------------------------------------- header */
+
+#wrap #container{
+  width:100%; 
+  margin:0 auto;
+}
+#wrap #container .sub_banner img{
+  margin: auto;
+  display: block;
+  width: 100vw;
+}
+#wrap #container .sub_banner .inner{
+border: 1px solid#000;
+margin-top: -73px;
+}
+#wrap #container .sub_banner .inner ul{
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  }
+
+#wrap #container .sub_banner .inner ul li{
+  width: 328px;
+  height: 71px;
+  background-color: #003864;
+  color: #FFF;
+  padding: 25px;
+  }
+#wrap #container .sub_banner .inner ul li:hover{
+    background-color:#E4032E;
+    color: #FFF;
+  }
+
+  /* ---------------------------------------------sub_banner */
+  
+#wrap #container .navicon .inner{
+  margin: 40px auto;
+  display: flex;
+  font-size: 19px;
+  font-weight: 400;
+}
+#wrap #container .navicon .inner span{
+  font-size: 20px;
+  padding-right: 10px;
+}
+#wrap #container .navicon .inner p{
+  padding-right: 10px;
+}
+ /* ---------------------------------------------navicon */
+ #wrap #container .navi .inner {
+ }
+
+ #wrap #container .navi .inner .googlemap{
+  margin-top: 40px ;
+ }
+
+ #wrap #container .navi .inner .address{
+  width: 100%;
+  height: 200px;
+  background-color: #eee;
+  display: flex;
+  padding: 40px;
+ }
+
+
+ #wrap #container .navi .inner .address .add2{
+  margin-left: 40px;
+  margin-top: -6px;
+  font-size: 22px;
+  line-height: 40px;
+ }
+
+
+ /* ---------------------------------------------navi*/
+
+ #wrap #container .parking{
+  margin-top: 60px;
+}
+
+ #wrap #container .parking .parking1{
+  display: flex;
+  margin: 40px 0px 40px 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #888;
+  }
+ #wrap #container .parking .parking1 .carimg{
+  width: 100px;
+  height: 100px;
+  font-size: 94px;
+  text-align: center;
+  margin-left: 40px
+}
+#wrap #container .parking .parking1 .parkingguidance{
+  margin-left: 65px;
+  line-height: 30px;
+}
+#wrap #container .parking .parking1 .parkingguidance .b1{
+font-size: 22px;
+}
+#wrap #container .parking .parking1:nth-child(2),
+#wrap #container .parking .parking1:nth-child(6){
+  border-bottom:none;
+  }
+
+#wrap #container .parking .ticket{
+  display: flex;
+}
+#wrap #container .parking .ticket .express{
+  width: 270px;
+  height: 50px;
+  background-color: #333 ;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 200px;
+}
+#wrap #container .parking .ticket .express .m4{
+  line-height: 45px;
+}
+
+#wrap #container .parking .ticket .intercity{
+  width: 270px;
+  height: 50px;
+  background-color: #333 ;
+  color: #FFF;
+  font-size: 18px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+#wrap #container .parking .ticket .intercity .m4{
+  line-height: 45px;
+  }
+ /* ---------------------------------------------parking*/
+
+
+
+
+ #wrap .footer{
+  margin-top: 77px;
+  width: auto;
+  height: 208px;
+  background-color: #003764;
+  }
+  
+  #wrap .footer .footer1{
+  width:100%;
+  height: 63px;
+  border-bottom: 1px solid #fff;
+  }
+  
+  #wrap .footer .footer1 .inner .f_info{
+  width: 800px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  }
+  
+  #wrap .footer .footer1 .inner .f_info ul{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 59px;
+  }
+  
+  #wrap .footer .footer2{
+  margin-top: 21px;
+  height:145px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  }
+  
+  #wrap .footer .footer2 .inner .company ul{
+  width: 800px;
+  display: flex;
+  justify-content:space-between;
+  }
+  
+  #wrap .footer .footer2 .inner .copyright{
+  margin-top: 21px;
+  display: flex;
+  }
+  #wrap .footer .footer2 .inner .copyright .footerpic{
+  margin-left:580px;
+  }
+  #wrap .footer .footer2 .inner .copyright .footerpic img:nth-child(1){
+  width: 60px;
+  height: 44px;
+  margin-right:20px;
+  }
+
+
+  /* ---------------------------------------------footer */
+

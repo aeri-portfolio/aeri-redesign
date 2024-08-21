@@ -1,0 +1,7 @@
+
+/* button color change */
+.swiper-button-next{color:#fff; transform: scale(0.8);}
+.swiper-button-prev{color:#fff; transform: scale(0.8);}
+.swiper-pagination-bullet-active{background-color: #fff; width:20px; border-radius: 10px;}
+
+
